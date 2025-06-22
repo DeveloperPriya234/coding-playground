@@ -22,4 +22,4 @@ for chai in chai_types:
 
 
 for key,value in chai_types.items():
-    print(key,values)
+    print(key,value-)
