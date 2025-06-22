@@ -22,4 +22,10 @@ for chai in chai_types:
 
 
 for key,value in chai_types.items():
-    print(key,value-)
+    print(key,value)
+    
+    
+if "masala " in chai_types:
+    print("i have masala chai")
+else:
+    print(i dont have masala chai)
