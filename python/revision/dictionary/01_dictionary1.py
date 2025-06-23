@@ -25,7 +25,9 @@ for key,value in chai_types.items():
     print(key,value)
     
     
-if "masala " in chai_types:
-    print("i have masala chai")
+if "oolong" in chai_types:
+    print("masala is in the chai_types")
+    
 else:
-    print(i dont have masala chai)
+    print("oolong is not in the chai_types")t
+    
