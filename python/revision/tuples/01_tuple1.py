@@ -28,3 +28,11 @@ if "green" in all_tea:
     print(green)
     print(oolong)
     type(tea_types)
+    
+    
+    
+    
+print(type(tea_types))
+
+tea_varities =("ice creme",(1,2,3)"cold drink")
+print(tea_varities)
