@@ -1,33 +1,36 @@
-chai_types ={"masala":"spicy","ginger":"zesty","green":"fresh"}
-
+chai_types = {"masala":"spicy","green":"fresh","ginger":"zesty","oolong":"smooth"}
 print(chai_types)
 
-print(chai_types["masala"])
-
-
-chai_types["masala"] = "very spicy"
+chai_types["ooloong"]= "smooth" and "rich"
 print(chai_types)
 
-chai_types["oolong"] = "smooth"
+chai_types["black"] = "strong"
 print(chai_types)
 
-
-print(chai_types.get("masala"))
 chai_types.pop("ginger")
 print(chai_types)
+chai_types.popitem()
+print(chai_types)
 
-print(chai_types.popitem())
 
+for chai in chai_types:
+    print(chai)
+    for chai in chai_types:
+        print(chai,chai_types[chai])
+        chai_types.items()
 
-if "oolong" in chai_types:
-    print("oolong is in the chai_types")
-    print(chai_types)
-    chai_types["green"]= "fresh"
-    print(chai_types)
-    chai_types["masala"]="spicy"
-    print(chai_typess)
+for key,value in chai_types.items():
+    print(key,value)
     
     
+if "masala"in chai_types:
+    print("i have masala chai in chai_types")
     
-    if "oolong"in chai_types:
-        print("oolong in chai_types")
+    tea_shop = {"chai":{"masala":"spicy","ginger":"zesty"},"tea":{"green":"fresh","black":"strong"}}
+    print(tea_shop)
+    print(tea_shop["chai"])
+    print(tea_shop["tea"])
+    
+    
+squared_num = {x:x**2 for x in range(10)}
+print(squared_num)
