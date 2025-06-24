@@ -34,3 +34,12 @@ if "masala"in chai_types:
     
 squared_num = {x:x**2 for x in range(10)}
 print(squared_num)
+key = ("masala","ginger","green")
+
+print(key)
+default_value = "deliciouse"
+new_dict = dict.fromkeys(key,default_value)
+print(new_dict)
+
+new_dict = dict.fromkeys(key,key)
+print(new_dict)
