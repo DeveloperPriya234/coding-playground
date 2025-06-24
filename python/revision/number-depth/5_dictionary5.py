@@ -43,3 +43,4 @@ print(new_dict)
 
 new_dict = dict.fromkeys(key,key)
 print(new_dict)
+
