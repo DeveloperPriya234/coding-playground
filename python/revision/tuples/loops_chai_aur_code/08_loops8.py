@@ -1,5 +1,6 @@
 #check if number is prime
 
+
 number = 29
 is_prime = True
 
