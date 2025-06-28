@@ -34,5 +34,5 @@ if "green" in all_tea:
     
 print(type(tea_types))
 
-tea_varities =("ice creme",(1,2,3)"cold drink")
+tea_varities =("ice creme",(1,2,3),"cold drink")
 print(tea_varities)
