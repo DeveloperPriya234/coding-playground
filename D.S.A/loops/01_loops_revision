@@ -1,0 +1,36 @@
+# # name = "priya"
+# # for i in name:
+# #         print(i)
+# #         if(i =="r"):
+# #             print("this is  a special ")
+
+
+
+# # colors = ["red","blue","green","purple"]
+# # for color in colors
+# #  print(color)
+# #  for i in colors:
+# #   print(i)
+
+# for k in range(1,9):
+    
+#     print(k+1)
+    
+#     for k in range(1,12,2):
+#         print(k)
+
+
+
+
+for k in range(1,12,2):
+    print(k)
+    if (k==5):
+        print("this is a special case")
+    else:
+        print("nothing")
+
+
+
+
+
+
