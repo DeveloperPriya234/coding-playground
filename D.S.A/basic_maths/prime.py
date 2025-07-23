@@ -3,17 +3,18 @@
 
 # Simple prime number check using a for loop
 
-num = 100
+def is_prime(n):
+    if n <= 1:
+        return False  # 0 and 1 are not prime numbers
+    if n == 2:
+        return True   # 2 is the only even prime number
+    if n % 2 == 0:
+        return False  # other even numbers are not prime
+    for i in range(3, int(n ** 0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
 
-if num <= 1:
-    print(num, "is not a prime number.")
-else:
-    is_prime = True
-    for i in range(2, num):
-        if num % i == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print(num, "is a prime number.")
-    else:
-        print(num, "is not a prime number.")
+# Example usage:
+number = 23
+print(is_prime(number))
