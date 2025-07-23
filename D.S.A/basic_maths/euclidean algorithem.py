@@ -24,3 +24,4 @@ def gcd_find(a,b):
 
 
 print("gcd of 35 and 25 is:",gcd_find(35,25))
+
