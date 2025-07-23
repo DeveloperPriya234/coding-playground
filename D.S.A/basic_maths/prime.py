@@ -1,13 +1,18 @@
 # given an integer check if it is prime or not prime true if number is prime .print false
 
 
-def print_divisors(n):
-    print(f"Divisors of {n} are:")
-    for i in range(1, n + 1):
-        if n % i == 0:
-            print(i)
+num = 55
+is_prime = True
 
-# Example usage
-number = 65
-
-print_divisors(number)
+if num <= 1:
+    is_prime = False
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+``
+if is_prime:
+    print("Prime number")
+else:
+    print("Not a prime number")
