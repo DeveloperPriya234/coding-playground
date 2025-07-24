@@ -31,4 +31,7 @@ for i in range(n, 0, -1):
 
 print(result)
 
-``
+def factorial(n):
+    return n * factorial(n - 1)  # No base case!
+
+factorial(5)
