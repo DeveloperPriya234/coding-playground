@@ -18,4 +18,3 @@ def print_numbers(Lrange,Urange):
 print_numbers(1,10)
 
 
-
