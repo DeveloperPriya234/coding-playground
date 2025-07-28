@@ -21,3 +21,14 @@ def print_numbers(Lrange,Urange):
         
 print(print_numbers(10,1))
     
+    
+    
+def print_numbers(Lrange,Urange):
+    if Lrange < Urange:
+        return
+    else:
+        print_numbers(Lrange,Urange+1)
+        print(Urange)
+        
+print(print_numbers(10,1))
+    
