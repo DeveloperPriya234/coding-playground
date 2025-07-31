@@ -11,3 +11,4 @@ for num in m :
         if x == num:
             i+= 1
     print(i)
+    
