@@ -47,3 +47,34 @@ n-1 iteration loop(5-1) = 4
 4th iteration:i = 3==1
 1,2,3,4,5
 1,2,3,4,5
+
+
+
+#SELECTION SORT
+
+[4,1,5,2,3] 
+IN SELECTION SORT WE CONSIDER SORTING IN TWO PARTS  ONE HAS SORTED AND OTHER ONE IS UNSORTED AND WHAT WE DO IN WE PICK A SMALLEST ELEMENT IN UNSORTED PART AND WE TRY TO INSERT THIS IN SORTED PART
+
+
+n-1 iteration -> (n-1)smallest
+
+we start a n -1 iteration(loops) and push the n -1 smallest
+
+4,1,5,2,3
+check small element
+
+[1,]sorted[4,5,2,3]unsorted
+
+
+
+1,4,5,2,3
+(now repeat this again)
+
+1,2,5,4,3 
+[1,2]sorted[5,4,3]
+
+again
+1,2,3,,4,5
+[1,2,3]sorted[4,5]unsorted
+
+[1,2,3,4,5](sorted)
