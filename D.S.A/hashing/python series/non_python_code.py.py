@@ -5,4 +5,10 @@ def make_chai():
     boil_water()
     if not is_cup_clean():
         wash_cup()
-        
+    add_to_cup("tea_leaves")
+    add_to_cup("sugar")
+    pour("boiled water")
+    stie("cup")
+    serve("chai")
+    
+make_chai()
