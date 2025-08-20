@@ -28,4 +28,10 @@ pods_per_cup = 3
 leftover_pods = total_cadamom_pods % pods_per_cup
 print(f"leftover c pods: {leftover_pods}")
 
+base_flavor_strength =2
+scale_factor = 3
+powerful_flavor = base_flavor_strength ** scale_factor
+print(f"powerful flavor strength: {powerful_flavor}")
 
+
+#2 * 2*2 = 8
