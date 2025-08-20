@@ -20,6 +20,12 @@ print(f"milk per serving: {milk_per_serving}")
 
 total_tea_bags = 7
 pots = 4
-bags_per_pot = total_tea_bags/pots
+bags_per_pot = total_tea_bags//pots
 print(f"tea bags per pot: {bags_per_pot}")
+
+total_cadamom_pods = 10
+pods_per_cup = 3
+leftover_pods = total_cadamom_pods % pods_per_cup
+print(f"leftover c pods: {leftover_pods}")
+
 
