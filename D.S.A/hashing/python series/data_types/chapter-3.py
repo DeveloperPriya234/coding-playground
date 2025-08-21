@@ -35,3 +35,6 @@ print(f"powerful flavor strength: {powerful_flavor}")
 
 
 #2 * 2*2 = 8
+
+total_tea_leaves_harvested = 1_000_000_000
+print(f"tea leaves:{total_tea_leaves_harvested}")
