@@ -14,3 +14,15 @@ water_hot = True
 tea_added = False
 can_server = water_hot and tea_added
 print(f"can serve chai? {can_server}")
+
+
+water_hot = True
+tea_added = True
+can_server = water_hot and tea_added
+print(f"can serve chaii?{can_server}")
+
+
+water_hot = True
+tea_added = False
+can_server = water_hot or tea_added
+print(f"can serve chaii?{can_server}")
