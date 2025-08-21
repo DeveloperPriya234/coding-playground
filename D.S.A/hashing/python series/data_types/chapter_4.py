@@ -13,7 +13,7 @@ print(f"is there milk : {bool(milk_presents)}")
 water_hot = True
 tea_added = False
 can_server = water_hot and tea_added
-print(f"can serve chai? {can_server}")
+print(f"can serve chai? {bool(can_server)}")
 
 
 water_hot = True
