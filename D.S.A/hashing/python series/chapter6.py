@@ -7,4 +7,7 @@ chai_description = "aromatic and bold"
 
 print(f"first word:{chai_description[0:8:2]}")# 1 means every character 2. means every 2 character'
 print(f"first word:{chai_description[:8]}")
-print(f"last word:{chai_description[2:]}")
+print(f"last word:{chai_description[12:]}")
+
+
+print(f"last word:{chai_description[::-1]}")
