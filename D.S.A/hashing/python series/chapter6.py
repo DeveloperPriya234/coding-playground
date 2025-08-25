@@ -11,3 +11,5 @@ print(f"last word:{chai_description[12:]}")
 
 
 print(f"last word:{chai_description[::-1]}")
+
+print[5:]
