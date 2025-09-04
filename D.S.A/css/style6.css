@@ -1,0 +1,27 @@
+#h1{
+    font-weight:normal
+}
+#h2{
+    font-weight:bold
+}
+#h3{
+    font-weight:bolder
+}
+#h4{
+    font-weight:lighter
+}
+#p1{
+    font-family:arial
+}
+#p3{
+    font-family:robot;
+}
+#one{
+    font-size:24px
+}
+#two{
+    font-size:10px
+}
+#three{
+    font-size:1px
+}
