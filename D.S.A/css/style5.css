@@ -3,14 +3,17 @@ p{
 }
 h1{
     text-align:center ;
-    text-decoration:underline;
+    text-decoration:red underline;
 }
 h2{
-    text-decoration:overline
+    text-decoration:blue wavy overline
 }
 h3{
-    text-decoration:underline
+    text-decoration:pink dotted underline
 }
 h4{
     text-decoration:line-through
+}
+a{
+    text-decoration:none
 }
