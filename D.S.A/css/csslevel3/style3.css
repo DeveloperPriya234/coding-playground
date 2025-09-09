@@ -1,0 +1,17 @@
+#box1{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display: inline-block;
+    position:absolute;
+    top:50px;
+    z-index:1;
+}
+#box2{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+    position:absolute;
+    z-index:1
+}
