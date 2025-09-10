@@ -1,0 +1,28 @@
+
+
+#box1{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+    background-image: url("cat_photo.jpg");
+background-size:cover;
+}
+#box2{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display: inline-block;
+}
+#box3{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display: inline-block;
+}
+#box4{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display: inline-block;
+}

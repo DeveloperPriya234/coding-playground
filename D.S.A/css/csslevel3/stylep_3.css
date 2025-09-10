@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width:100px;
+    background-image:url(nature_image.jpg);
+    background-size:cover;
+color:black;
+border-radius:10px ;
+text-align: center;
+position:fixed;
+right:0px;
+    
+}

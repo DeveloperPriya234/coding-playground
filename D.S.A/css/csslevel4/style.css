@@ -1,0 +1,48 @@
+
+#box1{
+    height:100px ;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box2{
+    height:100px ;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box3{
+    height:100px ;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box4{
+    height:100px ;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#box5{
+    height:100px ;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+#container{
+    width:800px;
+    height:200px;
+    border:5px solid black;
+
+    padding-left: 160px;
+    padding-top: 50px;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
