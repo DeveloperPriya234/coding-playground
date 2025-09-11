@@ -13,7 +13,7 @@ div{
     height: 200px;
     display: flex;
     flex-direction:row;
-  justify-content:flex-end;
+  justify-content:flex-start;
 
 
 
@@ -35,6 +35,172 @@ div{
 
 
 #box5{
+    background-color: green;
+}
+
+
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container1{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+  justify-content:flex-end;
+
+
+
+}
+#boxx1{
+    background-color: violet;
+}
+#boxx2{
+    background-color:blue;
+}
+
+#boxx3{
+    background-color: palevioletred;
+}
+
+#boxx4{
+    background-color:red;
+}
+
+
+#boxx5{
+    background-color: green;
+}
+
+
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container2{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+justify-content:center;
+
+
+
+}
+#boxes1{
+    background-color: violet;
+}
+#boxes2{
+    background-color:blue;
+}
+
+#boxes3{
+    background-color: palevioletred;
+}
+
+#boxes4{
+    background-color:red;
+}
+
+
+#boxes5{
+    background-color: green;
+}
+
+
+
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container3{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+justify-content: space-around;
+
+
+
+}
+#booxes1{
+    background-color: violet;
+}
+#booxes2{
+    background-color:blue;
+}
+
+#booxes3{
+    background-color: palevioletred;
+}
+
+#booxes4{
+    background-color:red;
+}
+
+
+#booxes5{
+    background-color: green;
+}
+
+
+
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container4{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+justify-content: space-between;
+
+
+
+}
+#booxxes1{
+    background-color: violet;
+}
+#booxxes2{
+    background-color:blue;
+}
+
+#booxxes3{
+    background-color: palevioletred;
+}
+
+#booxxes4{
+    background-color:red;
+}
+
+
+#booxxes5{
     background-color: green;
 }
 
