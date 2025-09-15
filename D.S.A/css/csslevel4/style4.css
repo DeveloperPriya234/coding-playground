@@ -72,7 +72,7 @@ align-items: flex-start;
 #boxx2{
     background-color:blue;
     height:200px;
-    flex-shrink:2 ;
+    flex-shrink:2;
 
 
 }
@@ -92,6 +92,58 @@ align-items: flex-start;
 
 
 }
+
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+#container2{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+justify-content: center;
+/* flex-wrap: wrap; */
+align-items: flex-start;
+/* align-content: flex-start; */
+
+}
+#boxes1{
+    background-color: violet;
+    flex-grow: 1;
+
+}
+#boxes2{
+    background-color:blue;
+    height:200px;
+    flex-grow:2;
+
+
+}
+
+#boxes3{
+    background-color: palevioletred;
+    height:75px;
+}
+
+#boxes4{
+    background-color:red;
+}
+
+
+#boxes5{
+    background-color: green;
+
+
+}
+
 
 
 
