@@ -1,33 +1,47 @@
 div{
-    height: 100px;
-    width: 200px;
-    display: inline-block;
-    border: 2px solid black;
-    background-color: pink;
+
+    height:50px ;
+    width: 50px;
+    background-color: red;
+
+    transition: all 0.5s ease;
 
 }
-@media (max-width:700px){
-    #container{
-        flex-direction: column;
-        align-items: center;
-    }
-    #box2{
-        height:100px;
-        flex-shrink:2;
-    }
-    #box3{
-        height:50px;
+@media(width:500px){
+    div{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
     }
 }
-#container{
-    width: 700px;
 
-    height: 300px;
-    display: flex;
-    flex-direction:row;
-justify-content: center;
-/* flex-wrap: wrap; */
-align-items: flex-start;        
-/* align-content: flex-start; */
+#div{
+    height:50px ;
+    width: 50px;
+    background-color: green;
 
+    transition: all 0.5s ease;
+    margin-top: 20px;
 }
+@media(min-width:500px){
+    #div{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(max-width:500px){
+    #div{
+        background-color: purple;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media(min-width:200px) and (max-width:400px){
+    #div{
+        background-color:paleturquoise;
+        width: 200px;
+        height: 200px;
+    }
+}
+   
