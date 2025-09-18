@@ -1,0 +1,22 @@
+div{
+    color: red;
+    font-size: 30px;        
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px red;
+    margin: 30px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color:pink ;
+    text-shadow: 2px 2px 5px grey;
+    text-transform: capitalize;
+    text-wrap-style: pretty;
+text-decoration: wavy underline;
+border-style: dotted;
+border-color: lavenderblush;
+text-decoration-thickness: from-font;
+transform: 45deg;
+
+
+}
