@@ -12,11 +12,20 @@ div{
     text-shadow: 2px 2px 5px grey;
     text-transform: capitalize;
     text-wrap-style: pretty;
-text-decoration: wavy underline;
-border-style: dotted;
+;
+
 border-color: lavenderblush;
 text-decoration-thickness: from-font;
-transform: 45deg;
+transition-timing-function: easy-in-out;
 
 
+
+}
+div:hover{
+    background-color: lightgreen;
+    color: blue;
+    box-shadow: 4px 4px 10px blue;
+    text-shadow: 2px 2px 5px lightblue;
+    text-decoration-color: blue;
+    border-color: lightblue;
 }

@@ -1,0 +1,35 @@
+div{
+    all: initial;
+    color: red;
+    text-shadow: 10px 10px 5px grey;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    /* New CSS Level 5 properties */
+    aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+    color-scheme: dark light; /* Support for dark and light modes */
+    container-type: inline-size; /* Enable container queries */
+
+    /* Pseudo-element for hover effect */
+border-radius: 10px;
+
+}
