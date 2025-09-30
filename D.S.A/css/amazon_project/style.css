@@ -150,7 +150,7 @@ font-size:0.7rem;
 
 .hero-section{
     height: 400px;
-    background-image: url("hero-section.png");
+    background-image: url("download.png");
     background-size: cover;
     background-position: center;
     margin-top: 10px;
@@ -162,6 +162,7 @@ font-size:0.7rem;
 
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:#e2e7e6
 
@@ -198,4 +199,28 @@ font-size:0.7rem;
 }
 
 
+
+/* *footer **/
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    font-size: 0.85rem;
+    
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    font-size: 0.85rem;
+}
 
