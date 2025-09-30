@@ -119,3 +119,40 @@ font-size:0.7rem;
     font-size:0.85rem;
     font-weight: 700;
 }
+
+/* pannel */
+.panel{
+    height:40px;
+    background-color:#232f3e;
+    color:white;
+
+    align-items:center;
+    justify-content: space-evenly;
+    display:flex;
+
+
+}
+.panel-ops p{
+    display:inline;
+    margin-left:10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+.hero-section{
+    height: 600px;
+    background-image: url("hero-section.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+
+}
