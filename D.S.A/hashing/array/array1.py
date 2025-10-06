@@ -19,3 +19,5 @@ print(fruits)  # Output: ['apple', 'blueberry', 'orange']
 # Loop through array
 for fruit in fruits:
     print(fruit)
+
+

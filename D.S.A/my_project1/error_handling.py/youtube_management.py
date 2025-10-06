@@ -2,7 +2,10 @@ import json
 def load_data():
     try:
         with open("youtube.txt","r")as file:
-            return json.load(file)
+            test= json.load(file)
+            print(type(test))
+            return
+        
     except FileNotFoundError:
         return[]
     

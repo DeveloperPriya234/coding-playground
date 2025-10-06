@@ -78,3 +78,11 @@ again
 [1,2,3]sorted[4,5]unsorted
 
 [1,2,3,4,5](sorted)
+
+
+#INSERTION SORT
+
+in this we insert unsorted element  in sorted array in her right place
+
+
+note-> single element is always sorted

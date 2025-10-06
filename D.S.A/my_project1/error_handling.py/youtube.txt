@@ -1,6 +1,1 @@
-[
-    {
-        "name": "suraj",
-        "time": "12"
-    }
-]
+[{"name": "learn python", "time": "20min"}]
