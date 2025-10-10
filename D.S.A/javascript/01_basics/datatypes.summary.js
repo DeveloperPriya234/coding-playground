@@ -66,7 +66,11 @@ let userOne = {
     upi:"user@bl"
 }
 
-console.log
+let userTwo = userOne
+userTwo.email="hitesh@google.com"
+console.log(userOne);
+console.log(userTwo);
+
 
 
 
