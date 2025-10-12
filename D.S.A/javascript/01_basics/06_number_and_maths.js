@@ -12,4 +12,17 @@ console.log(balance.toFixed(2));
 
 const otherNumber = 23.8966
 
-console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(5));
+
+const anotherNumber = 123.8966
+console.log(anotherNumber.toPrecision(3))
+
+
+const otherNumber1 = 1123.6569
+console.log(otherNumber1.toPrecision(3))
+
+
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-IN'))
+
+
