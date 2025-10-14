@@ -37,3 +37,10 @@ console.log(Math.round(4.6));
 
 
 console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+
+
+
+console.log(Math.random()); //always in range 0 to 1 all time number is change randomly;
+
+
