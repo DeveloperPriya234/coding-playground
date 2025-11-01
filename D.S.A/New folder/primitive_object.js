@@ -34,6 +34,4 @@ let obj = {
     rohan: 78,
     "my channel": 45,
 }
-console.log(obj);
-console.log(typeof obj);
-
+console.log(obj["my channel"]);
