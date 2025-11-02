@@ -56,10 +56,15 @@ console.log((x > 10) && (y < 5) ); // false && false = false
 //false or false = false
 
 
-console.log( (x < 10) || (y > 5) ); // true || true = true
+console.log((x < 10) || (y > 5) ); // true || true = true
 console.log((x < 10) || (y < 5) ); // true || false = true
 console.log((x > 10) || (y > 5) ); // false || true = true
 console.log((x > 10) || (y < 5) ); // false || false = false
+
+console.log(!false); // true
+console.log(!true); // false
+
+
 
 
 
