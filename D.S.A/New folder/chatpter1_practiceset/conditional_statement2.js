@@ -13,3 +13,5 @@ else if (age<18 && age>=9){
 else{
     console.log("you are eligible for driving");
 }
+
+console.log("end of program");
