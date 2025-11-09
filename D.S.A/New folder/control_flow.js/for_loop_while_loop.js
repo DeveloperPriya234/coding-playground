@@ -567,4 +567,25 @@
 
 // *for 
 
-bh
+// 1 - 100
+
+// for(init;CSSconditionalRule;increment){
+//     console.log(i);
+// }
+
+
+for (let i=0;i<=100;i++){
+    console.log(i);
+}
+
+for(let i =1;i<100;i++){
+    console.log(i);
+}
+for (let i = 1;i<=5;i++){
+    console.log("hello world");
+}
+
+// for(initilization;condition;increment/decrement){{
+//     //body of loop
+// }
+
