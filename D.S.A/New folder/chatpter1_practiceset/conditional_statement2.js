@@ -15,3 +15,8 @@ else{
 }
 
 console.log("end of program");
+
+
+//explore switch statements and write a basic program in the comments;
+
+console.log("you can",(a<18? "not drive":"drive"));
