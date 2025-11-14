@@ -44,11 +44,25 @@ console.log(result);
 
 
 //anonymous function// function name is not defined
-let  multiply = function(a,b){
-    return a*b;
-};
-let result2 = multiply(5,10);
-console.log(result2);
+
+// function(username){
+//     return "hello"+"username"
+// }
+
+// const getuser=function (username){
+//     return "hello"+username
+// }
+// console.log(getuser("ajay"));
 
 
 
+
+// const name =function(username = "priyaa")// default parameter{{
+//     {return "hello "+username
+// }
+// console.log(name());
+
+
+// * outside of the function of block
+
+var a = 10;//global scope
