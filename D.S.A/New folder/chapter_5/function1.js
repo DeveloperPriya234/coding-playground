@@ -63,6 +63,30 @@ console.log(result);
 // console.log(name());
 
 
-// * outside of the function of block
+// 
 
-var a = 10;//global scope
+
+//arrow function
+
+const consolefruit=()=>{
+    console.log("🍐")
+}
+
+
+consolefruit();
+
+
+const getfruit = ()=>console.log("🍎");
+getfruit();
+
+const consolefruitname= fruit=>console.log(fruit);
+
+consolefruitname("🍊");
+
+
+//immediate invoked function expression(IIFE)
+
+(function(){
+    console.log("hello o a,iife");
+})();
+
