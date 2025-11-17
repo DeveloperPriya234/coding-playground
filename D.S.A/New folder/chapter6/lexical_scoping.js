@@ -34,3 +34,4 @@ function parent(){
 let childFunction = parent();
 childFunction(); // invoking child function
 
+//in lexical scoping inner function can access outer function variable but outer function cannot access inner function variable 
