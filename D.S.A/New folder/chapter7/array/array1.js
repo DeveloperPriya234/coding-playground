@@ -43,9 +43,12 @@ let num = [10,20,30,40,50];
 console.log(num);
 console.log(num[2]); // accessing array element
 console.log(num.length); // length of array
+console.log(num[2], num[4]); // accessing multiple elements
 // modifying array element
 num[2] = 35;
 console.log(num);
+console.log(num.length);
+
 
 
 
