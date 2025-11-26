@@ -6,13 +6,13 @@
 // *num1.push(67)
 // *console.log(num1);
 
-// //pop(),
+// pop(),
 // !.removes the last item from an array
 //* let result = num1.pop();
 // *console.log(result);
 // *console.log(num1);
 
-// //shift(),
+// shift(),
 // !.removes the first item from an array
 // *let shift = num1.shift();
 // *console.log(shift);
@@ -30,4 +30,13 @@
 //splice(remove.replace.insert);
 //!.remove items from an array
 
+let num =[10,20,30,40,50];
+// num.splice(1,2)
+// console.log(num);
+// //?replace items in an array
+// num.splice(0,2,78,98);
+// console.log(num);
 
+//?insert items in an array
+num.splice(2,0,100,200);
+console.log(num);
