@@ -30,13 +30,25 @@
 //splice(remove.replace.insert);
 //!.remove items from an array
 
-let num =[10,20,30,40,50];
-// num.splice(1,2)
-// console.log(num);
-// //?replace items in an array
-// num.splice(0,2,78,98);
-// console.log(num);
+// *let num =[10,20,30,40,50];
+// *num.splice(1,2)
+// *console.log(num);
+// ?replace items in an array
+// *num.splice(0,2,78,98);
+// *console.log(num);
 
 //?insert items in an array
-num.splice(2,0,100,200);
+// *num.splice(2,0,100,200);
+// *console.log(num);
+
+//sort();
+//!.sort the items of an array in ascending order
+// *let num =[50,20,30,10,40];
+//* num.sort();
+// *console.log(num);
+
+//reverse();
+//!reverse the array in the place
+let num =[10,20,30,40,50];
+num.reverse();
 console.log(num);
