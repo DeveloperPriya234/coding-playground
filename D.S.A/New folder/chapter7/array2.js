@@ -49,6 +49,23 @@
 
 //reverse();
 //!reverse the array in the place
-let num =[10,20,30,40,50];
-num.reverse();
-console.log(num);
+// *let num =[10,20,30,40,50];
+// *num.reverse();
+// *console.log(num);
+
+//accessor/non mutable methods
+//concat();
+//!.joins two or more arrays and returns a new array
+
+//? slice(end,start);
+//!.returns selected elements in an array as a new array
+// *let num = [10,20,30,40,50];
+// *let result = num.slice(0,3);
+// *console.log(result);
+// *console.log(num);
+//*let num = [7,8,9,7,4,5]
+//*let result = num.slice(1,4)
+//*console.log(result);
+
+
+
