@@ -67,5 +67,18 @@
 //*let result = num.slice(1,4)
 //*console.log(result);
 
+//concat();
+//!.joins two or more arrays and returns a new array
 
-
+// *let num = [10,20,30,40,50];
+// *let num2 = [60,70,80,90,100];
+// *let result = num.concat(num2);
+// *console.log(result);
+// *console.log(num);
+// *console.log(num2);
+// includes();(value);
+//!.checks if an array contains a specified element and returns true or false
+//* let num = [10,20,30,40,50];
+//* let result = num.includes(30);
+//* console.log(result);
+//* console.log(num);   
