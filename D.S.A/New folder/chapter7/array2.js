@@ -97,3 +97,10 @@
 // *let result = num.indexOf(30);
 // *console.log(result);
 // *console.log(num);
+
+//join(separator);
+//!.joins all elements of an array into a string
+// *let num = [10,20,30,40,50];
+// *let result = num.join('-');
+// *console.log(result);
+// *console.log(num);
