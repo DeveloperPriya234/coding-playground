@@ -79,6 +79,21 @@
 // includes();(value);
 //!.checks if an array contains a specified element and returns true or false
 //* let num = [10,20,30,40,50];
-//* let result = num.includes(30);
-//* console.log(result);
-//* console.log(num);   
+// *let result = num.includes(30);
+// *console.log(result);
+// *console.log(num);   
+
+
+// *let transport = ['car','bus','bike','train'];
+// *let result = transport.includes('plane');
+// *console.log(result);
+// *console.log(transport);
+
+
+
+// indexOf();(value);
+//!.returns the first index at which a given element can be found in the array, or -1 if it is not present
+// *let num = [10,20,30,40,50];
+// *let result = num.indexOf(30);
+// *console.log(result);
+// *console.log(num);
