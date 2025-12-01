@@ -26,3 +26,10 @@
 // *num.forEach(function (value, index, array) {
 //  *   console.log(`2 x ${index+1} = ${value*2}`);
 //* });
+
+
+//map method
+//! The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+//* let numbers = [1,2,3,4,5,6,7,8,9,10];
+//* let result = numbers.map((value,index,array)=>{return value*2})
+// *console.log(result)
