@@ -9,3 +9,20 @@
 // *result.forEach((value,index,array)=>{console.log(value*2+"at the value of "+value)
 //  *   console.log(array)
 //* })
+
+// *let num = [10, 20, 30, 40, 50];
+// *num.forEach(function (value, index, array) {
+// *    console.log('Value:', value, 'Index:', index, 'Array:', array);
+//* let num_join = num.join('-');
+// *console.log(num_join);
+
+// *});
+
+
+// *let numbers = [1,2,3,4,5,6,7,8,9,10];
+//* numbers.forEach((value,index,array)=>{console.log(value*3+" at the index of "+index)})
+
+//* let num = [1,2,3,4,5,6,7,8,9,10];
+// *num.forEach(function (value, index, array) {
+//  *   console.log(`2 x ${index+1} = ${value*2}`);
+//* });
