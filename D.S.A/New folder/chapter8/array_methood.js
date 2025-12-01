@@ -33,3 +33,15 @@
 //* let numbers = [1,2,3,4,5,6,7,8,9,10];
 //* let result = numbers.map((value,index,array)=>{return value*2})
 // *console.log(result)
+
+
+//filter
+//! The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+//* let numbers = [1,2,3,4,5,6,7,8,9,10];
+// *let result = numbers.filter((value,index,array)=>{return value>5
+
+//* })
+// *console.log(result)
+
+//reduce
+//! The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
