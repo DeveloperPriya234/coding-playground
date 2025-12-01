@@ -45,3 +45,17 @@
 
 //reduce
 //! The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
+// *let numbers = [1,2,3,4,5,6,7,8,9,10];
+// *let result = numbers.reduce((accumulator,currentValue,index,array)=>{
+// *return accumulator+currentValue
+// *},0)
+//* console.log(result)
+
+//find
+//! The find() method returns the value of the first element in the provided array that satisfies the provided testing function.
+// *let numbers = [1,2,3,4,5,6,7,8,9,10];
+// *let result = numbers.find((value,index,array)=>{return value>5})
+// *console.log(result)
+
+
