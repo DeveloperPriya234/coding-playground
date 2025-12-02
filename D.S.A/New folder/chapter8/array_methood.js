@@ -90,3 +90,20 @@
 //   *    return user.age < 40
 // *)
 //* console.log(result)
+
+//* let num = [10, 20, 30, 40, 50];
+// *let result = num.some((value)=>{
+//  *   return value > 45
+//* })
+
+// *console.log(result)
+
+
+// *let users = [
+// *  {name: 'Charlie', age: 35},
+//   *  {name: 'David', age: 40}
+// *];
+// *let result = users.some((user)=>{
+// **}
+// *)
+// *console.log(result)
