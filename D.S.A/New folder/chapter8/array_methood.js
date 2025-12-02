@@ -63,3 +63,30 @@
 //* let numbers = [1,2,3,4,5,6,7,8,9,10];
 //* let result = numbers.find((value,index,array)=>{return value>5})
 //* console.log(result)
+
+
+// *let users = [
+//  *   {name: 'Alice', age: 25},
+//  *   {name: 'Bob', age: 30},
+//  *   {name: 'Charlie', age: 35},
+//   *  {name: 'David', age: 40}
+// *];
+// *let result = users.find((user)=>{
+// *    return user.age > 30
+//* })
+// *console.log(result)
+
+
+
+//some
+//! The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+// *let numbers = [1,2,3,4,5,6,7,8,9,10];
+// *let result = numbers.some((value,index,array)=>{return value>5})
+// *console.log(result)
+
+
+//* let users = [
+// *    {name: 'Alice', age: 25},
+//   *    return user.age < 40
+// *)
+//* console.log(result)
