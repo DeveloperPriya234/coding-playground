@@ -107,3 +107,35 @@
 // **}
 // *)
 // *console.log(result)
+
+//every
+//! The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+// *let numbers = [1,2,3,4,5,6,7,8,9,10];
+// *let result = numbers.every((value,index,array)=>{return value>0})
+// *console.log(result)
+
+/* This code snippet is using the `every` method in JavaScript. */
+// *let num = [10, 20, 30, 40, 50];
+// *let result = num.every((value)=>{
+//  *   return value <= 50
+// *})
+// *console.log(result)
+
+// *let users = [
+//   *  {name: 'Alice', age: 25},
+//   *  {name: 'Bob', age: 30},
+
+//  *   {name: 'Charlie', age: 35},
+//    * {name: 'David', age: 40}
+// *];
+//* let result = users.every((user)=>{
+//  *   return user.age < 50
+// *})
+// *console.log(result)
+
+
+// *let num =[1,2,3,4,5,6,7,8,9,10];
+// *let result = num.every((value)=>{
+//    * return value <10;
+// *})
+// *console.log(result)
