@@ -121,3 +121,16 @@
 // *console.log(str2.toLowerCase());
 
 
+//includes();
+//!.determines whether one string may be found within another string, returning true or false as appropriate
+// *let str1 = "Hello, World!";
+// *console.log(str1.includes("World")); // true
+// *console.log(str1.includes("world")); // false
+
+// *let str2 = "javascript is fun!";
+// *console.log(str2.includes("is")); // true
+// *console.log(str2.includes(" "))// true
+// *console.log(str2.includes("java")); // false    
+// *console.log(str2.includes("fun!")); // true
+// *console.log(str2.includes("Python")); // false
+
