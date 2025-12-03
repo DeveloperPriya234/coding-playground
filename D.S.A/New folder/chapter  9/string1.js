@@ -204,6 +204,24 @@
 // *console.log(newString)
 
 //* let string = ("    hello world     ")
-// *let newString = string.trimEndssss();
+// *let newString = string.trimEnd();
 // *console.log(newString)
 
+//split
+//* let string = ("red,green,yellow,purple,black")
+// *let newString = string.split(",");
+// *console.log(newString)
+
+
+// repeat(n);
+
+// *let string = ("hello ")
+// *let newString = string.repeat(20)
+// *console.log(newString)
+
+
+//concat
+let string = ("hello");
+let string2= ("world");
+let newString = string.concat(string2)
+console.log(newString)
