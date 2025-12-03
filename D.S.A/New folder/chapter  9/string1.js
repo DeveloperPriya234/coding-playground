@@ -98,3 +98,26 @@
 // *console.log(str1.substr(-5,5));
 // *console.log(str1.substr(2,5));
 // *console.log(str1.substr(0))
+
+
+
+//uppercase();
+//!.converts the string to uppercase letters
+// *let str1 = "Hello, World!";
+// *console.log(str1.toUpperCase());
+
+
+// *let str2 = "JavaScript is fun!";
+// *console.log(str2.toUpperCase());
+
+
+
+//lowercase();
+//!.converts the string to lowercase letters
+//* let str1 = ("HELLO WORLD!");
+// *console.log(str1.toLowerCase());
+
+// *let str2 = "JAVASCRIPT IS FUN!";
+// *console.log(str2.toLowerCase());
+
+
