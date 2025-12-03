@@ -134,3 +134,35 @@
 // *console.log(str2.includes("fun!")); // true
 // *console.log(str2.includes("Python")); // false
 
+
+//startsWith();
+//!.determines whether a string begins with the characters of a specified string, returning true or false as appropriate
+//* let str1 = "Hello, World!";
+// *console.log(str1.startsWith("Hello")); // true
+// *console.log(str1.startsWith("World")); // false
+
+
+//* let str2 = "hello world i am learning javascript";
+//* console.log(str2.startsWith("hello"))
+//* console.log(str2.startsWith("h"))
+
+//endsWith();
+//!.determines whether a string ends with the characters of a specified string, returning true or false as appropriate
+// *let str1 = "Hello, World!";
+// *console.log(str1.endsWith("!")); // true
+// *console.log(str1.endsWith("World")); // false
+
+
+//endsWith();
+//!.determines whether a string ends with the characters of a specified string, returning true or false as appropriate
+//* let string = "hello world i am learning javascript";
+//* console.log(string.endsWith("javascript"))
+// *console.log(string.endsWith("script"))
+//* console.log(string.endsWith("t"))
+// *console.log(string.endsWith("hello"))
+
+//replace(searchValue, newValue);
+//!.returns a new string with some or all matches of a pattern replaced by a replacement
+// *let str1 = "Hello, World!";
+// *let newStr1 = str1.replace("World", "JavaScript");
+// *console.log(newStr1); // Hello, JavaScript!
