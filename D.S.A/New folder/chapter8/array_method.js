@@ -28,6 +28,7 @@ let sum = numbers.reduce(function(accumulator, currentValue) {
 console.log(sum); // 199
 //some();
 //!.tests whether at least one element in the array passes the test implemented by the provided function
+
 let hasLargeNumber = numbers.some(function(value) {
     return value > 100;
 });

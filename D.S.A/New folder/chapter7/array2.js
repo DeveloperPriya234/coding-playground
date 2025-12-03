@@ -30,8 +30,8 @@
 //splice(remove.replace.insert);
 //!.remove items from an array
 
-// *let num =[10,20,30,40,50];
-// *num.splice(1,2)
+//* let num =[10,20,30,40,50];
+//* num.splice(1,2)
 // *console.log(num);
 // ?replace items in an array
 // *num.splice(0,2,78,98);
@@ -76,6 +76,7 @@
 // *console.log(result);
 // *console.log(num);
 // *console.log(num2);
+
 // includes();(value);
 //!.checks if an array contains a specified element and returns true or false
 //* let num = [10,20,30,40,50];
@@ -98,7 +99,7 @@
 // *console.log(result);
 // *console.log(num);
 
-//join(separator);
+// join(separator);
 //!.joins all elements of an array into a string
 // *let num = [10,20,30,40,50];
 // *let result = num.join('-');
