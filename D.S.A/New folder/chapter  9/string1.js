@@ -161,8 +161,49 @@
 //* console.log(string.endsWith("t"))
 // *console.log(string.endsWith("hello"))
 
+
+//* let str2 = "I love JavaScript. JavaScript is fun!";
+// *console.log(str2.startsWith("I"))
+// *console.log(str2.endsWith("fun!"))
+
 //replace(searchValue, newValue);
 //!.returns a new string with some or all matches of a pattern replaced by a replacement
-// *let str1 = "Hello, World!";
-// *let newStr1 = str1.replace("World", "JavaScript");
-// *console.log(newStr1); // Hello, JavaScript!
+
+
+
+// let str1 = "Hello, World!";
+// let newStr1 = str1.replace("World", "JavaScript");
+// console.log(newStr1); // Hello, JavaScript!
+
+
+// let str2 ="banana  apple banana grape banana";
+// let newStr2 = str2.replace("banana", "orange");
+// console.log(newStr2); // orange apple banana grape banana
+
+//?replaces the first match by default(use regex with g flag of all)
+
+
+// *let str2 = ("apple banana papaya apple cheery")
+// *let newStr2 = str2.replace(/apple/g, "grapes"
+
+// *)
+
+// *console.log(newStr2)
+
+
+
+//trim;
+//!removes extra whitespaces from both ends of string
+// *let string = ("    hello world  ")
+// *let newString = string.trim();
+// *console.log(newString);
+
+
+// *let string = ("   hello world  ");
+// *let newString = string.trimStart();
+// *console.log(newString)
+
+//* let string = ("    hello world     ")
+// *let newString = string.trimEndssss();
+// *console.log(newString)
+
