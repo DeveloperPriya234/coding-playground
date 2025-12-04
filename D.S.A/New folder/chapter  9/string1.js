@@ -221,7 +221,11 @@
 
 
 //concat
-let string = ("hello");
-let string2= ("world");
-let newString = string.concat(string2)
-console.log(newString)
+// *let string = ("hello");
+// *let string2= ("world");
+// *let newString = string.concat(string2)
+//* console.log(newString)
+
+
+// console.log("hello ".repeat(10000));
+
