@@ -3,7 +3,7 @@
 //!keys are always strings (or symbol),and values can be any type...
 
 //* let myPerson = {
-//  *   name:"priyaa",
+//  *   name:"priya",
 //    * age:21,
 //   *  isInCollege:true,
 //    * address:{
@@ -27,3 +27,11 @@
 //2nd way
 //? console.log(myPerson["hobbies"])
 
+
+
+const myNewObj = new Object()
+myNewObj.name = "priya";
+myNewObj.location = "noida";
+myNewObj.biecepsSize = 10;
+
+console.log(myNewObj)
