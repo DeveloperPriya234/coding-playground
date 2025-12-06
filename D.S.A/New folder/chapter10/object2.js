@@ -10,7 +10,7 @@ const jsUser = {
     email: "priya234@gmail.com",
     isLoggedIn:false,
     LastLoginDays: ["monday","saturday"],
-    [mySym]: "key1",
+    [mySym]: "mykey1",
 }
 
 
@@ -24,6 +24,21 @@ jsUser.email = "priya123@gmail.com"
 
 console.log(jsUser["email"])
 
-Object.freeze(jsUser)
+// Object.freeze(jsUser)
 jsUser.email="priya222@gmail.com"
 console.log(jsUser["email"])
+
+console.log(jsUser)
+
+
+jsUser.greeting = function(){
+    console.log("hello world");
+}
+
+console.log(jsUser.greeting())
+
+
+jsUser.greetingTwo = function(){
+    console.log(`hello js user,${this.name}`)
+}
+console.log(jsUser.greetingTwo())

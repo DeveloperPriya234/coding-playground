@@ -29,9 +29,14 @@
 
 
 
-const myNewObj = new Object()
-myNewObj.name = "priya";
-myNewObj.location = "noida";
-myNewObj.biecepsSize = 10;
+// *const myNewObj = new Object()
+// *myNewObj.name = "priya";
+// *myNewObj.location = "noida";
+// *myNewObj.biecepsSize = 10;
 
-console.log(myNewObj)
+// *console.log(myNewObj)
+
+
+// *const proto = {greet(){console.log("hii");}};
+// *const obj = object.create(proto);
+// *obj.greet(); 
