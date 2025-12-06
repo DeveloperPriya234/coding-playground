@@ -26,4 +26,31 @@ console.log(myPerson)
 //* console.log(Object.values(myPerson))
 
 // object.entries
-console.log(Object.entries(myPerson))
+// *console.log(Object.entries(myPerson))
+
+
+// object.assign
+
+//* let a = {x:1}
+// *let b = {y:2}
+// *let c = {a,b}
+// *console.log(c)
+
+
+
+
+
+//* let a = {x:1}
+// *let b ={y:2}
+// *let c = Object.assign({},a,b)
+
+// *console.log(c)
+
+
+// freeze
+
+let obj = {theme:"dark"};
+
+Object.freeze(obj);
+obj.theme = "light"
+console.log(obj.theme)
