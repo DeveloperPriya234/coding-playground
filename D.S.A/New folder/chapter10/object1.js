@@ -40,3 +40,57 @@
 // *const proto = {greet(){console.log("hii");}};
 // *const obj = object.create(proto);
 // *obj.greet(); 
+
+
+
+//singleton
+//! singleton is an object that is created once and used globally across your code. it's useful when you want to ensure only one instance of an object ..
+
+//! singleton is an object that is created once and used globally across your code.its useful when you want to ensure only one instance of an object..
+
+//! singleton is an object that is created once and used globally across code. it's useful when you want to ensure only one instance of an object..
+
+//! singleton is an object that is created once and used globally used across code. it's useful when you want to ensure only one instance of an object..
+
+
+//!singleton is an object that is created once and used globally used across code. it's useful when you want to ensure only one instance of an object 
+
+
+//! singleton is an object that is created once and used globally used across code..it's useful when you want to ensure only one instance of an object..
+
+
+//!singleton is an object that is created once and used globally used across code.it's useful when you want to ensure only one instance of an object..
+
+
+//! singleton is an object that is created once and used globally used across code. it's useful when you want to ensure only one instance of an object..
+
+
+//! singleton is an object that is created once and used globally used across code.it's useful when you want to ensure only one instance of an object..
+
+//! singleton is an object that is created once and used globally used across code it's useful when you want ensure only one instance of an object..
+
+//! singleton is an object that is crated once and used globally used across code its useful when you want ensure only one instance of an object
+
+
+const TeddyBear = (function(){
+    let onlyOneBear;
+
+    function createdTeddy(){
+        return{name:"fluffy"};
+    }
+
+    return{
+        getBear:function(){
+            if(!onlyOneBear){
+                onlyOneBear = createdTeddy();
+            }
+            return onlyBear
+        }
+    }
+})();
+
+const myBear1 = TeddyBear.getBear();
+const myBear2 = TeddyBear.getBear();
+
+
+console.log(myBear1);
