@@ -159,6 +159,12 @@
 
 
 
+//common issue with numbers
+
+
+// floating point precision
+
+//!0.1+0.4=0.5 //false
 
 
 
