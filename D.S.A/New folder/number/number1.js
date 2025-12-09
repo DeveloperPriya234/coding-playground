@@ -81,3 +81,8 @@ console.log(Number.isFinite(12.333))
 //* console.log(Number.isInteger("abc"))
 
 // *console.log(Number.isInteger(23.4))
+
+
+//?methods
+//* let n = 3.1415914159;
+// *console.log(n.toFixed(9))
