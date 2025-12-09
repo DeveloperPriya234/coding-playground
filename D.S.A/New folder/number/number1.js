@@ -149,3 +149,28 @@
 //!min
 // *console.log(Math.min(1,2,3,4,5))
 
+//!bigint
+//* let n = 1234567987321135789n
+// *console.log(n)
+// *console.log(typeof(n))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
