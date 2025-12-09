@@ -1,20 +1,20 @@
 //object method 
-let myPerson ={
-    name:"priya",
-    age:21,
-    IsInCollege:true,
-    address:{
-        city:"Noida",
-        NearBy:"Metro station"
-    },
-    hobbies:["gym","walking","coffee"],
-    greet:function(){
-        console.log("hello world")
-    }
+// let myPerson ={
+//     name:"priya",
+//     age:21,
+//     IsInCollege:true,
+//     address:{
+//         city:"Noida",
+//         NearBy:"Metro station"
+//     },
+//     hobbies:["gym","walking","coffee"],
+//     greet:function(){
+//         console.log("hello world")
+//     }
 
-}
+// }
 
-console.log(myPerson)
+// console.log(myPerson)
 
 //object.keys
 
@@ -49,8 +49,14 @@ console.log(myPerson)
 
 // freeze
 
-let obj = {theme:"dark"};
+//* let obj = {theme:"dark"};
 
-Object.freeze(obj);
-obj.theme = "light"
-console.log(obj.theme)
+// *Object.freeze(obj);
+//* obj.theme = "light"
+// *console.log(obj.theme)
+
+//hasown;
+//*const user = {name:"JhonDoe"}
+//*console.log(Object.hasOwn(user,"name"))
+
+//*console.log(Object.hasOwn(user,"age"))
