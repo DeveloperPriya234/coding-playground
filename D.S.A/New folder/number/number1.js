@@ -27,7 +27,7 @@
 
 //max value
 //* const max = Number.MAX_VALUE;
-// *console.log(max)
+// *console.log(max)1
 //min value
 
 // *const min = Number.MIN_VALUE;
@@ -45,3 +45,39 @@
 // *console.log(1/0);
 //* console.log(-1/0);
 // *console.log("abc"*2);
+
+
+//number conversion
+
+//* console.log(Number.("42"))
+
+// *console.log(parseInt("42px"))
+// *console.log(("2.345abc"))
+
+// *console.log(parseFloat("2.3abc"))
+
+//* console.log(+"123")// change in string
+
+
+//checking number
+//!nan
+// *console.log(Number.isNaN("abc"*2))
+
+// *console.log(Number.isNaN(NaN))
+
+//* console.log(Number.isNaN("abc"))
+//!finite
+
+console.log(isFinite(100))
+console.log(Number.isFinite("100"))
+console.log(Number.isFinite(12.333))
+
+
+//!integer
+
+// *console.log(Number.isInteger(34))
+//* console.log(Number.isInteger("23"))
+
+//* console.log(Number.isInteger("abc"))
+
+// *console.log(Number.isInteger(23.4))
