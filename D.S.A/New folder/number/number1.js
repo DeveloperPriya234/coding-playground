@@ -28,8 +28,20 @@
 //max value
 //* const max = Number.MAX_VALUE;
 // *console.log(max)
-
+//min value
 
 // *const min = Number.MIN_VALUE;
 // *console.log(min)
 
+//max_safe_value
+
+//* const max_safe = Number.MAX_SAFE_INTEGER;
+//* console.log(max_safe)
+
+//Min_safe_integer
+//*const min_safe = Number.MIN_SAFE_INTEGER;
+//*console.log(min_safe)
+
+// *console.log(1/0);
+//* console.log(-1/0);
+// *console.log("abc"*2);
