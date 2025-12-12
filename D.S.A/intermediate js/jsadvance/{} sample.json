@@ -1,0 +1,14 @@
+{
+    "name":"priya",
+    "age":21,
+    "isStudent":true,
+    "skills":["javascript","python"],
+    "address":{
+        "city":"delhi",
+        "pincode":110001
+
+    
+    }
+
+
+}
