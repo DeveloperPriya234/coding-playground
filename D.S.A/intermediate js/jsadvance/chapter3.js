@@ -1,1 +1,1 @@
-//DOM in javascript(clientside javascript)
+//DOM in javascript(client side javascript,fronted js)
